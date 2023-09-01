@@ -1,6 +1,10 @@
 # ctrl-c-gpt-v
 A Python program for correcting spelling and grammar in clipboard content utilizing GPT-4.
 
+
+https://github.com/kristianmk/ctrl-c-gpt-v/assets/1713062/17f28f6e-f010-4a95-9fb6-faf0e34d5097
+
+
 **WARNING: If you press the 'rewrite' button, be informed that all content on your clipboard will be sent to OpenAI through their API.**
 
 ## Usage
