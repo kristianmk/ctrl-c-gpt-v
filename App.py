@@ -2,6 +2,7 @@
 #
 # Note: Main thread and GUI is partially blocked by the API call, and no feedback is shown while waiting for results.
 #
+import os
 import openai
 import pyperclip
 import tkinter as tk
@@ -15,8 +16,8 @@ update_pending = True
 
 
 def rewrite_text(text):
-    openai.api_key = "your-openai-api-key-here"
-    # openai.api_key = os.environ.get("OPENAI_API_KEY")
+    # openai.api_key = "your-openai-api-key-here-or-use-an-env-variable-as-shown-below"
+    openai.api_key = os.environ.get("OPENAI_API_KEY")
 
     prompt =   f"You are a merited academic writer using clear language. For the following task, avoid translating," \
                f"and if language is difficult to figure out, assume Norwegian, English, or German." \
