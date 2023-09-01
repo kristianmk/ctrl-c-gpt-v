@@ -16,6 +16,7 @@ update_pending = True
 
 def rewrite_text(text):
     openai.api_key = "your-openai-api-key-here"
+    # openai.api_key = os.environ.get("OPENAI_API_KEY")
 
     prompt =   f"You are a merited academic writer using clear language. For the following task, avoid translating," \
                f"and if language is difficult to figure out, assume Norwegian, English, or German." \
