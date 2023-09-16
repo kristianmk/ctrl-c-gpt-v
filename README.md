@@ -4,7 +4,7 @@ A Python program for correcting spelling and grammar in clipboard content utiliz
 https://github.com/kristianmk/ctrl-c-gpt-v/assets/1713062/6bc7555e-c5cf-41a6-8383-9e9e3ab8fa91
 
 
-**If you press the 'rewrite' button, be informed that all content on your clipboard will be sent to OpenAI through their API.**
+**If you press the 'rewrite' button, all content on your clipboard will be sent to OpenAI through their API. Make sure you have no sensitive data on the clipboard.**
 
 ## Usage
 1. Clone this repository.
